@@ -13,3 +13,18 @@
 - `/continent` -  list of **continent names** by country
 - `/currency` -  list of **currency codes**
 - `/phone` -  list of **phone codes**
+
+## How to use
+
+- Pull `docker pull opsid/countries`
+- Run `docker run -d --name countries -p 8080:80 opsid/countries:latest`
+- Use `curl -L 0.0.0.0:8080/iso3`
+
+Response will be:
+```
+{
+    ...
+    "UA": "UKR",
+    ...
+}
+```
