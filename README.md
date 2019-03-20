@@ -7,6 +7,7 @@
 - Easy to use 
 - Simple interface
 - Dockerized
+- Tiny. Size is only `16.1MB`!
 
 ## What's included?
 - `/iso3` -  list of **countries** in **iso3** format
