@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.20-alpine
 RUN rm /etc/nginx/conf.d/*
 RUN mkdir -p /logs /data
 COPY ./data.conf /etc/nginx/conf.d/
